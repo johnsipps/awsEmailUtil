@@ -87,6 +87,5 @@ class Jemail():
 		else:
 			print("Email sent! Message ID:"),
 			print(response['MessageId'])
-		
 		return 'Hello from Lambda'
 
