@@ -28,7 +28,7 @@ AWS_REGION = "us-east-1"
 SUBJECT = "Amazon S3 Put/Delete - Email notification"
 
 # The email body for recipients with non-HTML email clients.
-BODY_TEXT = ("Amazon SES Test (Python)\r\n"
+BODY_TEXT = ("Amazon S3 Put/Delete - Email notification (Python)\r\n"
 			"This email was sent with Amazon SES!, Regards, John"
 			)
 			
@@ -36,7 +36,7 @@ BODY_TEXT = ("Amazon SES Test (Python)\r\n"
 BODY_HTML = """<html>
 <head></head>
 <body>
-<h1>Amazon SES Test (SDK for Python)</h1>
+<h1>Amazon S3 Put/Delete - Email notification</h1>
 <p>This email was sent with Amazon SES!
 	</br> Regards, John</p>
 </body>
