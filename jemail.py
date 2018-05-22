@@ -25,7 +25,7 @@ RECIPIENT = "RECIPIENT@gmail.com"
 AWS_REGION = "us-east-1"
 
 # The subject line for the email.
-SUBJECT = "Amazon SES Test (SDK for Python)"
+SUBJECT = "Amazon S3 Put/Delete - Email notification"
 
 # The email body for recipients with non-HTML email clients.
 BODY_TEXT = ("Amazon SES Test (Python)\r\n"
@@ -51,7 +51,7 @@ client = boto3.client('ses',region_name=AWS_REGION)
 
 # Try to send the email.
 class Jemail():
-	def main():
+	def main(self):
 		try:
 			#Provide the contents of the email.
 			response = client.send_email(
